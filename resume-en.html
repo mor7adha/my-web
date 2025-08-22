@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume | Mortadha Ali</title>
+  <meta name="theme-color" content="#0b0f14">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .cv{max-width:900px;margin:40px auto;padding:24px;background:var(--card);border:1px solid var(--border);border-radius:18px}
+    .cv h1{margin:0 0 4px}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .cv section{margin-top:18px}
+    ul{margin:0; padding-inline-start:18px}
+    .cv .lang{display:flex; gap:10px; justify-content:flex-end}
+    .cv .lang a{font-weight:700; border:1px solid var(--border); border-radius:12px; padding:.35rem .6rem}
+
+    /* Back button (outside the card) */
+    .actions { text-align:center; margin: 30px 0 50px; }
+    .back-btn{
+      display:inline-block; padding:12px 28px; font-size:15px; font-weight:600;
+      border-radius:50px; background:linear-gradient(135deg,#2563eb,#1e40af); color:#fff;
+      text-decoration:none; letter-spacing:.5px; box-shadow:0 6px 16px rgba(37,99,235,.3);
+      transition:all .3s ease; position:relative; overflow:hidden;
+    }
+    .back-btn:hover{ background:linear-gradient(135deg,#1e40af,#2563eb); transform:translateY(-3px) scale(1.05); box-shadow:0 10px 24px rgba(30,64,175,.4) }
+    .back-btn::after{ content:""; position:absolute; top:0; left:-100%; width:100%; height:100%;
+      background:rgba(255,255,255,.2); transform:skewX(-20deg); transition:.5s }
+    .back-btn:hover::after{ left:120% }
+  </style>
+</head>
+<body class="ltr">
+  <div class="cv">
+    <div class="lang"><a href="resume.html">AR</a></div>
+
+    <h1>Mortadha Ali</h1>
+    <p class="muted">Cybersecurity & Network Specialist · TOEFL</p>
+
+    <section>
+      <h3>Summary</h3>
+      <p>Specialist in system defense, vulnerability assessment, and secure network design. Skilled in secure programming (Python/Bash) and security automation.</p>
+    </section>
+
+    <section class="grid">
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>Vulnerability Assessment · PenTest</li>
+          <li>Hardening · SIEM/SOAR</li>
+          <li>Routing/Switching · VPN · Firewalls</li>
+          <li>Secure Coding · OWASP · Threat Modeling</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Certifications</h3>
+        <ul>
+          <li>TOEFL (English)</li>
+          <li>— Add other certificates here</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>Experience</h3>
+      <ul>
+        <li><strong>Security Engineer</strong> — Hardening, log management, and incident response.</li>
+        <li><strong>Network Specialist</strong> — Network design, firewalls, and VPN.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Projects</h3>
+      <ul>
+        <li>Linux server hardening per CIS</li>
+        <li>Internal network vulnerability assessment</li>
+        <li>Integrated OWASP checks in CI/CD</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Contact</h3>
+      <p>Email: your.email@example.com · Phone: +000000000 · LinkedIn · GitHub</p>
+    </section>
+  </div>
+
+  <!-- Back to Home OUTSIDE the CV card -->
+  <div class="actions">
+    <a href="index.html" class="back-btn">← Back to Home</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

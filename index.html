@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mortadha Ali | Portfolio</title>
+  <meta name="description" content="محفظة مورتضى علي - مختص أمن سيبراني وشبكات.">
+  <meta property="og:title" content="Mortadha Ali Portfolio">
+  <meta property="og:description" content="Cybersecurity & Network Specialist | Secure Programming | TOEFL">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b0f14">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#hero">
+      <img src="assets/logo.svg" alt="MA" width="24" height="24">
+      <span>Mortadha&nbsp;Ali</span>
+    </a>
+    <nav class="links">
+      <a href="#about" data-i18n="nav.about">عنّي</a>
+      <a href="#skills" data-i18n="nav.skills">المهارات</a>
+      <a href="#projects" data-i18n="nav.projects">الأعمال</a>
+      <a href="#services" data-i18n="nav.services">الخدمات</a>
+      <a href="#resume" data-i18n="nav.resume">السيرة</a>
+      <a href="#contact" class="btn" data-i18n="nav.contact">تواصل</a>
+    </nav>
+    <div class="toolbar">
+      <button id="langToggle" aria-label="Change language">AR/EN</button>
+      <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+    </div>
+  </header>
+
+  <section id="hero" class="hero reveal">
+    <div class="hero__content">
+      <p class="eyebrow" data-i18n="hero.eyebrow">أمن سيبراني · شبكات · برمجة آمنة</p>
+      <h1 data-i18n="hero.title">مرحباً، أنا <span class="accent">مُرتضى علي</span></h1>
+      <p class="sub" data-i18n="hero.sub">
+        مختص في <strong>الدفاع عن الأنظمة</strong>، <strong>تقييم الثغرات</strong>، وتصميم
+        <strong>البُنى الشبكية الآمنة</strong>، مع خبرة في <strong>البرمجة الآمنة</strong> وتخفيف التهديدات.
+        حاصل على شهادة <strong>TOEFL</strong> في اللغة الإنجليزية.
+      </p>
+      <div class="cta">
+        <a href="#contact" class="btn" data-i18n="hero.cta1">ابدأ التواصل</a>
+        <a href="#projects" class="btn ghost" data-i18n="hero.cta2">استعراض الأعمال</a>
+      </div>
+      <ul class="badges" aria-label="أبرز ما أقدمه">
+        <li>Hardening</li>
+        <li>Vulnerability&nbsp;Assessment</li>
+        <li>Network&nbsp;Design</li>
+        <li>Threat&nbsp;Mitigation</li>
+      </ul>
+    </div>
+    <div class="hero__visual" aria-hidden="true">
+      <div class="grid-card floaty">
+        <div class="chip">CVE Scan</div>
+        <div class="chip">NMAP</div>
+        <div class="chip">SIEM</div>
+        <div class="chip">Zero-Trust</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about reveal">
+    <h2 data-i18n="about.title">عنّي</h2>
+    <p data-i18n="about.text">
+      أنا مهندس أمن سيبراني وشبكات أساعد المؤسسات على بناء دفاعات تقنية صلبة، من وضع السياسات إلى التنفيذ العملي.
+      أُجري اختبارات اختراق، أُصمّم بنى شبكية آمنة، وأطبّق ممارسات البرمجة الآمنة عبر دورة حياة التطوير (SSDLC).
+    </p>
+    <div class="cards">
+      <article class="card hoverlift reveal" data-delay="1">
+        <h3 data-i18n="about.mission.title">الرسالة</h3>
+        <p data-i18n="about.mission.text">رفع النضج الأمني مع تقليل التعقيد، وبناء أنظمة resilient يمكن الوثوق بها.</p>
+      </article>
+      <article class="card hoverlift reveal" data-delay="2">
+        <h3 data-i18n="about.values.title">القيم</h3>
+        <p data-i18n="about.values.text">النزاهة، السرية، التوفّر، والتوثيق القابل للمراجعة.</p>
+      </article>
+      <article class="card hoverlift reveal" data-delay="3">
+        <h3 data-i18n="about.langs.title">اللغات</h3>
+        <p data-i18n="about.langs.text">العربية · English (TOEFL)</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills reveal">
+    <h2 data-i18n="skills.title">المهارات</h2>
+    <div class="skills__grid">
+      <div class="hoverlift reveal" data-delay="1">
+        <h4 data-i18n="skills.defense.title">الدفاع والاختبار</h4>
+        <ul>
+          <li>Penetration Testing · Red/Blue Team</li>
+          <li>Vulnerability Scanning (Nmap, Nessus)</li>
+          <li>Endpoint Hardening & Baselines</li>
+          <li>SIEM/SOAR · Log Analysis</li>
+        </ul>
+      </div>
+      <div class="hoverlift reveal" data-delay="2">
+        <h4 data-i18n="skills.network.title">الشبكات</h4>
+        <ul>
+          <li>Routing & Switching · VLANs · VPN</li>
+          <li>Firewalls (pfSense, Cisco ASA)</li>
+          <li>Wi-Fi Security · NAC</li>
+          <li>Zero-Trust · Micro-segmentation</li>
+        </ul>
+      </div>
+      <div class="hoverlift reveal" data-delay="3">
+        <h4 data-i18n="skills.secprog.title">البرمجة الآمنة</h4>
+        <ul>
+          <li>Python · Bash · PowerShell</li>
+          <li>Secure Coding · Code Review</li>
+          <li>Threat Modeling · OWASP Top 10</li>
+          <li>Automation · Scripting</li>
+        </ul>
+      </div>
+      <div class="hoverlift reveal" data-delay="4">
+        <h4 data-i18n="skills.certs.title">الشهادات</h4>
+        <ul>
+          <li>TOEFL (English)</li>
+          <li>+ يمكن إضافة شهادات أخرى لاحقاً</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects reveal">
+    <h2 data-i18n="projects.title">نماذج أعمال</h2>
+    <div class="cards">
+      <article class="card proj hoverlift reveal" data-delay="1">
+        <h3 data-i18n="projects.p1.title">تقوية خوادم Linux لمؤسسة متوسطة</h3>
+        <p data-i18n="projects.p1.text">تطبيق CIS Benchmarks، إعداد مراقبة سجلات، وتلقيم تنبيهات إلى SIEM.</p>
+        <ul class="tags"><li>Hardening</li><li>SIEM</li><li>CIS</li></ul>
+      </article>
+      <article class="card proj hoverlift reveal" data-delay="2">
+        <h3 data-i18n="projects.p2.title">تقييم ثغرات شامل لشبكة داخلية</h3>
+        <p data-i18n="projects.p2.text">اكتشاف خدمات مكشوفة، تصنيف المخاطر، وخطة إغلاق حسب الأولوية.</p>
+        <ul class="tags"><li>Nmap</li><li>Nessus</li><li>Risk</li></ul>
+      </article>
+      <article class="card proj hoverlift reveal" data-delay="3">
+        <h3 data-i18n="projects.p3.title">أتمتة فحوصات OWASP لمشروع ويب</h3>
+        <p data-i18n="projects.p3.text">دمج فحوصات SAST/DAST في CI/CD وتثقيف الفريق حول OWASP Top 10.</p>
+        <ul class="tags"><li>OWASP</li><li>DevSecOps</li><li>CI/CD</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="services" class="section services reveal">
+    <h2 data-i18n="services.title">الخدمات</h2>
+    <div class="service-grid">
+      <div class="service hoverlift reveal" data-delay="1">
+        <h3 data-i18n="services.vuln.title">تقييم الثغرات</h3>
+        <p data-i18n="services.vuln.text">فحص دوري وتوصيات عملية بالإغلاق وفق أثر الأعمال.</p>
+      </div>
+      <div class="service hoverlift reveal" data-delay="2">
+        <h3 data-i18n="services.hard.title">تقوية الأنظمة</h3>
+        <p data-i18n="services.hard.text">Baseline آمن، ضبط خدمات، وإدارة تحديثات.</p>
+      </div>
+      <div class="service hoverlift reveal" data-delay="3">
+        <h3 data-i18n="services.net.title">تصميم الشبكات الآمنة</h3>
+        <p data-i18n="services.net.text">تقسيم شبكي، VPN، جدران نارية وسياسات وصول.</p>
+      </div>
+      <div class="service hoverlift reveal" data-delay="4">
+        <h3 data-i18n="services.secprog.title">البرمجة الآمنة</h3>
+        <p data-i18n="services.secprog.text">مراجعات كود، نمذجة تهديدات، وأتمتة مهام الأمان.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="section resume reveal">
+    <h2 data-i18n="resume.title">السيرة الذاتية</h2>
+    <p data-i18n="resume.text">يمكنك تحميل سيرتي أو استعراض النسخة HTML.</p>
+    <div class="cta">
+      <a class="btn" href="resume.html" data-i18n="resume.view">استعراض السيرة</a>
+
+      <!-- 🔽 زر التحميل الذكي حسب اللغة -->
+      <a id="downloadResume" class="btn ghost" href="#" download>تحميل</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact reveal">
+    <h2 data-i18n="contact.title">تواصل معي</h2>
+    <p data-i18n="contact.text">للتعاون أو العروض الوظيفية: </p>
+    <form class="contact__form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+      <div class="row">
+        <label data-i18n-wrap="contact.name">الاسم
+          <input type="text" name="name" required placeholder="اسمك الكامل">
+        </label>
+        <label data-i18n-wrap="contact.email">البريد
+          <input type="email" name="email" required placeholder="example@mail.com">
+        </label>
+      </div>
+      <label data-i18n-wrap="contact.message">الرسالة
+        <textarea name="message" rows="5" required placeholder="اكتب رسالتك هنا"></textarea>
+      </label>
+      <button class="btn" type="submit" data-i18n="contact.send">إرسال</button>
+    </form>
+    <ul class="social">
+      <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      <li><a href="#" aria-label="GitHub">GitHub</a></li>
+      <li><a href="#" aria-label="X/Twitter">X</a></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Mortadha Ali • <span data-i18n="footer.rights">جميع الحقوق محفوظة</span></p>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+
+  <!-- 📌 سكربت خفيف يضبط زر التحميل حسب اللغة الحالية ويحدّثه بعد التبديل -->
+  <script>
+    function currentLang(){
+      const saved = localStorage.getItem('lang');
+      if (saved === 'ar' || saved === 'en') return saved;
+      const htmlLang = (document.documentElement.lang||'').toLowerCase();
+      if (htmlLang.startsWith('ar') || document.documentElement.dir === 'rtl') return 'ar';
+      return 'en';
+    }
+    function setResumeDownload(lang){
+      const a = document.getElementById('downloadResume');
+      if (!a) return;
+      const map = {
+        ar: { file: 'assets/resume-ar.pdf', label: 'تحميل السيرة الذاتية' },
+        en: { file: 'assets/resume-en.pdf', label: 'Download Resume' }
+      };
+      a.href = map[lang].file;
+      a.textContent = map[lang].label;
+      a.setAttribute('download', `Mortadha_Ali_Resume_${lang}.pdf`);
+    }
+    // عند التحميل
+    setResumeDownload(currentLang());
+    // بعد الضغط على زر تبديل اللغة
+    document.getElementById('langToggle')?.addEventListener('click', () => {
+      setTimeout(() => setResumeDownload(currentLang()), 0);
+    });
+  </script>
+</body>
+</html>
